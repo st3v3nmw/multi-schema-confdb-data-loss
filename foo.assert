@@ -1,0 +1,42 @@
+type: confdb-schema
+authority-id: f22PSauKuNkwQTM9Wz67ZCjNACuSjjhN
+revision: 1
+account-id: f22PSauKuNkwQTM9Wz67ZCjNACuSjjhN
+name: foo
+summary: first schema for data loss repro
+timestamp: 2026-06-15T14:05:32+00:00
+views:
+  admin:
+    rules:
+      -
+        request: data.{key}
+        storage: v1.data.{key}
+body-length: 198
+sign-key-sha3-384: -vtoKUiMBQW08EG3HlyFYUxxa7Svz2xhg6baPpjUyDvH0MPeCfogBQoAaneZuPbp
+
+{
+  "storage": {
+    "schema": {
+      "v1": {
+        "schema": {
+          "data": {
+            "schema": {
+              "value": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+AcLBcwQAAQoAHRYhBCNznT5W1VXlw/5olsce514tVmTYBQJqMAbMAAoJEMce514tVmTYC6IQAIUp
+kqv+2fTc3gFPEVBzCvi861qnp/vukq9jfxxtvmxGNxptrlnnRKH153YcmTG2HqbuUC/EPAuuLY5A
+2O+ttzvoQJlc52mgEQxRCnrSiZ4p1nuT1rk6eRb/BnGAnyYsQyklRBiH5r4+vOD+l83aLLXMR1Qq
+6ug9HV4ank8Z4G9xKi17t0Zp3VUu8oapSxZ+VN/cAmqdqfLXi+B/FyQToSXvGjY4DJlVmY7jxqPe
+efOf2FApdcQijX3GR5FnCWS9lEZyJEu+BbqGKQG9nNjfHtFmqagabHde0tTDK5+qhnhHks1CPwq1
+pwt2NUGBofuesEHBVQtY5Wjmmdf8jMS4tLE442xA4J8SRDuOwBp9xPhvnZCBf8XjQeSx/gsUZl3c
+Xc7D40Rj6BzUUx8ODJyf3HE/kpW6v0Z+duGk3H6nLNkG+n6NKWa+fRJogCGlKwZ2W00RsENsA3xI
+TQEClCiexrFL3s36Zmpob13jlcI0UeEoiZD0q866YWyRBPtODhh/tGDic9rwlrL/g/XiLSiChUO6
+i1Llp5+rNKUnPSrEWEe+kJNfQ8BKTKFQeBfURITaNG53+D/mR0a+KIGfrhfJgQBN6YVbbjIL22bv
+gpxSBsOc3eKjSe673BWYQk6JbroSAdez61VTElTEIvkpWY0moRUraRWYN/YooHQezzI+lrlg

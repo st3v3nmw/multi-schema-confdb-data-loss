@@ -1,0 +1,14 @@
+name: repro-foo
+version: "1.0"
+summary: custodian for foo
+description: minimal custodian snap for repro
+base: core24
+grade: stable
+confinement: strict
+
+plugs:
+  foo-admin:
+    interface: confdb
+    account: f22PSauKuNkwQTM9Wz67ZCjNACuSjjhN
+    view: foo/admin
+    role: custodian

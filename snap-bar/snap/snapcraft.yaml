@@ -1,0 +1,14 @@
+name: repro-bar
+version: "1.0"
+summary: custodian for bar
+description: minimal custodian snap for repro
+base: core24
+grade: stable
+confinement: strict
+
+plugs:
+  bar-admin:
+    interface: confdb
+    account: f22PSauKuNkwQTM9Wz67ZCjNACuSjjhN
+    view: bar/admin
+    role: custodian

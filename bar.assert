@@ -1,0 +1,42 @@
+type: confdb-schema
+authority-id: f22PSauKuNkwQTM9Wz67ZCjNACuSjjhN
+revision: 1
+account-id: f22PSauKuNkwQTM9Wz67ZCjNACuSjjhN
+name: bar
+summary: second schema for data loss repro
+timestamp: 2026-06-15T14:05:32+00:00
+views:
+  admin:
+    rules:
+      -
+        request: data.{key}
+        storage: v1.data.{key}
+body-length: 198
+sign-key-sha3-384: -vtoKUiMBQW08EG3HlyFYUxxa7Svz2xhg6baPpjUyDvH0MPeCfogBQoAaneZuPbp
+
+{
+  "storage": {
+    "schema": {
+      "v1": {
+        "schema": {
+          "data": {
+            "schema": {
+              "value": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+AcLBcwQAAQoAHRYhBCNznT5W1VXlw/5olsce514tVmTYBQJqMAbkAAoJEMce514tVmTYGiMP/icY
+mocdHOGJNF01ahATgOvgt8tWkNkbM9bv4Usoo7fP51YBqq5SN6ZdghScdRkI8dZX+yBVOWpao78c
+Z/xV4jWYedOzaQ+ByxIM4Jom2fhaF065pNb/wCExf4Bgwd6AlY88+w1rOR2elroI2cpqlHvBVImy
+H+6y5ZGASP5e7gMa0SUY8fiQHaoUECI66+bcezcfgFNkLb0qWrlrJQRUNsSgeUSz6mJCSfvQjC8J
+xTJVxDV5Q40wabELkuRIjFvCrcrQUVmh7J3XomVa2gf8r5XWm7m8Enn0MYurRRc8Nj61RhtBrL7N
+Wq/k4kp2J9+/mGsB2dpAlBh5vTIoB4RoGA88was1lgiBASEeZtlP/TLlg++MWKYv6PxLE3/lxfHx
+usT9wEQQ739x+rs46F4AhP9cEB0ihYrCLrCAH6F3/KyfoOWW4mPgE1PGzmJNcCb9MOIE4V+aVEbG
+tGq7SFWGJbtkE/CDmjPt/bmzW01l91K14IG7RVtzqSjV6f68HmQb7yQgF1VHtBY0MdxDTvJ75XWG
+Pl8xR0cD5kzBjvKPLcLOym9VvgueQykcDl7npeW5uEvB71Ch/QkVtPgLUuBARC/n2l5o6iRPadHY
+EUTJ6zxLOePNkOmX1rKqeoqJ2K5J7gg3uESSDkQbK9rRn2PRjurRN2dYSohrLXUJ/vuqVYjN
