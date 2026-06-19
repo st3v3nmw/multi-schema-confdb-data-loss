@@ -1,5 +1,9 @@
 # Confdb multi-schema data loss
 
+> **Fixed.** This bug was resolved in snapd on June 16, 2025 in commit
+> [4ebded6](https://github.com/canonical/snapd/commit/4ebded6c2ee28f4f062274ab4774423fa9349e23)
+> ("o/confdbstate: fix data loss when writing to a new schema under an existing account").
+
 Writing a value to one confdb schema causes all data stored in a different confdb
 schema under the same account to be lost. The bug triggers whenever one schema
 has data and the other being written to has no existing data.
